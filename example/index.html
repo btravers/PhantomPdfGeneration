@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PhantomJS PDF generation</title>
+  </head>
+  <body>
+    <h1>PhantomJS PDF generation</h1>
+    <div>
+      Timer:
+      <span id="timer">0</span>
+    </div>
+  </body>
+  <script>
+    var timer = 0;
+    var timerElement = document.getElementById('timer');
+    setInterval(function() {
+      timerElement.textContent = ++timer;
+    }, 1000);
+
+    isReady = function() {
+      return timer > 3;
+    }
+  </script>
+</html>

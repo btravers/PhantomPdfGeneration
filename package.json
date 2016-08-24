@@ -1,0 +1,15 @@
+{
+  "name": "phantom-pdf-generation",
+  "version": "1.0.0",
+  "description": "Test PDF generation with PhantomJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benoit TRAVERS <benoit.travers@zenika.com>",
+  "license": "ISC",
+  "dependencies": {
+    "phantom": "^2.1.18"
+  }
+}
