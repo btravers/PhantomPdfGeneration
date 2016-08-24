@@ -1,7 +1,7 @@
 {
   "name": "phantom-pdf-generation",
   "version": "1.0.0",
-  "description": "Test PDF generation with PhantomJS",
+  "description": "PDF generation with PhantomJS",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

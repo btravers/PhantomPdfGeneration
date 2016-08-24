@@ -1,5 +1,7 @@
 # PhantomPdfGeneration
-Test PDF generation with PhantomJS
 
-  npm i
-  npm start
+PDF generation with PhantomJS
+
+```(shell)
+npm i && npm start
+```
